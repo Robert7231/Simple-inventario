@@ -16,10 +16,23 @@ public class Simpleinventario {
 
 
     public static void imprimirinventario() {
-        System.out.println("ingrese una opcion;");
+        System.out.println("ingrese nombre;");
     }
 
     public static void main(String[] args) {
         imprimirinventario();
     }
+
+    public static String obtenerNombredelArticulo(){
+        Scanner scanner =  new Scanner(System.in);
+        System.out. println("ingrese nombre del articulo");
+        String nombre = scanner.next();
+        System.out.println("Usted ha ingresado el articulo"+ nombre);
+        return
+
+
+
+
+    }
+
 }
